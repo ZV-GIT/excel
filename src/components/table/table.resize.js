@@ -10,7 +10,6 @@ export function resizeHandler($root, event) {
 
     $resizer.css({
         opacity: 1,
-        // zIndex: 10,
         [sideProp]: '-5000px'
     })
 
